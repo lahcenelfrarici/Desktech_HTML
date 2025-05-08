@@ -975,7 +975,7 @@ section.section-five-desktech.section-propose-five-desktech .img---five-desktech
 }
 
 .prtps {
-  padding: 0 120px;
+  padding: 0 190px;
 }
 
 .left--contact {
@@ -1164,4 +1164,75 @@ section.section-three-desktech .row >div:nth-child(even) h5 {
 
 .svg__vertical_sc svg path {
     fill: #fff;
+}
+.right--section-two-desktech a {
+  border-radius: 0;
+  width: auto;
+  height: auto;
+}
+.btn--link-dr.link--dr {
+  width: max-content;
+}
+.right--section-two-desktech {
+  padding: 40px;
+}
+section.section-propose-one-desktech .right--section-two-desktech a {
+  width: 336px;
+  height: 60px;
+  border-radius: 30px;
+}
+.img---five-desktech-bg {
+  height: 620px;
+}
+
+.img---five-desktech-bg img {
+  height: 100%;
+  width: 100%;
+}
+
+section.section-five-desktech .container-sc {
+  justify-content: center;
+}
+
+.img---five-desktech-bg {}
+
+section.section-five-desktech .right--section-two-desktech {padding-top: 0;}
+section.section-five-desktech.section-propose-five-desktech .img---five-desktech-bg {
+  height: 530px;
+}
+section.section-five-desktech {}
+.twoo--img-sc .para--text {
+  display: flex;
+  width: 285px;
+  height: 95px !important;
+  padding: 30px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  z-index: 8;
+  justify-content: center;
+  height: max-content;
+  margin: auto;
+}
+.twoo--img-sc .para--text p {
+  margin-bottom: 0;
+}
+.twoo--img-sc .para--text p {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.twoo--img-sc {}
+
+.twoo--img-sc .para--text p:after {
+  opacity: 0;
 }
