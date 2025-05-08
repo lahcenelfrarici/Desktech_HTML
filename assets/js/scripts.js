@@ -65,6 +65,24 @@
       },
     },
   });
+  $('.value').each(function () {
+    var $this = $(this);
+    var target = parseInt($this.attr('data-target'));
+    var current = 0;
+    var increment = target / 100;
+
+    function countUp() {
+      current += increment;
+      if (current < target) {
+        $this.text('+' + Math.ceil(current));
+        setTimeout(countUp, 20);
+      } else {
+        $this.text(target < 2023 ? target : '+' + target);
+      }
+    }
+
+    countUp();
+  });
 
 })(jQuery);
 // $(document).ready(function () {
