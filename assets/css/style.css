@@ -1,6 +1,6 @@
 @font-face {
-  font-family: "Averta CY";
-  src: url("../webfonts/AvertaCY-Regular.ttf");
+  font-family: "Roboto";
+  src: url("../webfonts/Roboto-Regular.ttf");
   font-display: swap;
 }
 
@@ -89,6 +89,12 @@ h6 {
   align-items: center;
   gap: 0 10px;
   justify-content: center;
+  color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .menu_principe {
@@ -149,7 +155,7 @@ section.slider .home_button {
 }
 
 .home_slider_content {
-  width: 628px;
+  width: 650px;
 }
 
 section.slider h1 span {
@@ -1031,7 +1037,7 @@ section#contact--nous {
 }
 
 .prtps {
-  padding: 0 120px;
+  padding: 0 190px;
 }
 
 .right--contact {
