@@ -913,7 +913,6 @@ section.section-five-desktech.section-propose-five-desktech .img---five-desktech
 }
 
 .contact-webform {
-  font-family: Arial, sans-serif;
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
@@ -1354,30 +1353,13 @@ section#blog--slider .banner >img {
 section#blog--slider .row {
   align-items: center;
 }
-.items--sc-blg {<
-  div class="img--all-blog">
-          <img src="./assets/images/card1-1.png">
-        </div>
-        <div class="card-item-all">
-          <h5>23 déc. 2024</h5>
-          <h2>L’Imprimante Multifonction Parfaite au Maroc: Ricoh IM 370F</h2>
-          <p>Chez  Desktech , nous comprenons l’importance d’une imprimante fiable pour les entreprises marocaines.
-            La Ricoh IM 370F combine...</p>
-        </div>;
-<
-  div class="img--all-blog">
-          <img src="./assets/images/card1-1.png">
-        </div>
-        <div class="card-item-all">
-          <h5>23 déc. 2024</h5>
-          <h2>L’Imprimante Multifonction Parfaite au Maroc: Ricoh IM 370F</h2>
-          <p>Chez  Desktech , nous comprenons l’importance d’une imprimante fiable pour les entreprises marocaines.
-            La Ricoh IM 370F combine...</p>
-        </div>;
+.items--sc-blg {
   background: #FFF;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
-
+section.lists--all-imprimantes-multifonctions .row {
+  gap: 30px 0;
+}
 .img--all-blog {
   height: 150px;
 }
@@ -1485,3 +1467,196 @@ section#blog--slider .row:after {
 section#blog--slider .row {
   position: relative;
 }
+section.section-one-desktech-imprimantes-multifonctions {}
+
+section.section-one-desktech-imprimantes-multifonctions .title--primary {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.container {}
+
+section.section-one-desktech-imprimantes-multifonctions .title--primary h2 {
+    width: 40%;
+}
+
+section.section-one-desktech-imprimantes-multifonctions .title--primary p {
+    width: 60%;
+    text-align: left;
+}
+
+section.section-one-desktech-imprimantes-multifonctions  .right--section-two-desktech {
+    padding: 0;
+}
+section.lists--all-imprimantes-multifonctions .img--all-blog {
+  height: auto;
+}
+
+section.lists--all-imprimantes-multifonctions h2 {
+  color: #000849;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+section.lists--all-imprimantes-multifonctions a {
+  border-radius: 10px;
+  background: #000849;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  width: 168px;
+  height: 43px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+section.lists--all-imprimantes-multifonctions {}
+
+section.lists--all-imprimantes-multifonctions .card-item-all {
+  padding: 0 40px 40px 40px;
+}
+.checkbox-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+
+  
+  font-size: 18px;
+  color: #0b1652;
+}
+
+.checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #0b1652;
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked::after {
+  content: '✔';
+  position: absolute;
+  left: 4px;
+  top: -2px;
+  color: red;
+  font-size: 16px;
+}
+.card-filter-all {
+  border-radius: 10px;
+  height: 207px;
+  background: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+
+.title--filter span {
+  color: #CE112D;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.item--checkbox h6 {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+label.checkbox-wrapper {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.searhing-checkbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item--checkbox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  position: relative;
+}
+
+.item--checkbox:after {
+  transform: translateX(60px);
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000849;
+  left: auto;
+  right: 0;
+}
+
+.item--checkbox:last-child:after {
+  opacity: 0;
+}
+
+.title--filter {
+  padding-bottom: 30px;
+}
+section.filter-imprimantes-multifonctions {
+  padding-top: 0;
+}
+.img--all-blog {
+  padding: 0 40px 40px 40px;
+}
+section.section-five-produits-et-services-desktech h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+/* .searhing-checkbox > .item--checkbox:nth-child(1):nth-last-child(2)::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #000849;
+  left: auto;
+  right: -50%;
+} */
