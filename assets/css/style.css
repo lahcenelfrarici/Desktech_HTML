@@ -1237,8 +1237,251 @@ section.section-five-desktech {}
   line-height: normal;
 }
 
-.twoo--img-sc {}
-
+section.section-propose-twoo-desktech {
+  padding-top: 0;
+}
 .twoo--img-sc .para--text p:after {
   opacity: 0;
+}
+section.maps-img {
+  padding: 0;
+}
+section.section-five-produits-et-services-desktech {
+  background: #000849;
+}
+section.section-five-produits-et-services-desktech .title--primary {
+  text-align: center;
+}
+.contact-produits-et-services-desktech {
+  background: #F5F5F5;
+  border-radius: 5px;
+  background: #e6e9ffd4;
+}
+
+.contact-produits-et-services-desktech form >div:first-child {
+  width: 49%;
+}
+
+.contact-produits-et-services-desktech form >div:nth-child(2) {
+  width: 49%;
+}
+
+.contact-produits-et-services-desktech form >div input {
+  border-radius: 4px;
+  border: 1px solid #000849;
+  background: rgba(255, 255, 255, 0.80);
+  width: 100%;
+  height: 62.885px;
+  padding-left: 10px;
+}
+
+.contact-produits-et-services-desktech input[type="submit"] {
+  border-radius: 4px;
+  background: #000849;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+
+.contact-produits-et-services-desktech {
+  padding: 30px;
+}
+
+.contact-produits-et-services-desktech form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px 0;
+}
+
+g {}
+
+.contact-produits-et-services-desktech form >div {
+  width: 100%;
+}
+
+.contact-produits-et-services-desktech form >div {}
+
+.contact-produits-et-services-desktech form >div textarea {
+  width: 100%;
+  padding-left: 15px;
+  height: 218px;
+  border-radius: 5px;
+}
+
+section.section-five-produits-et-services-desktech {}
+
+section.section-five-produits-et-services-desktech .right--section-two-desktech {
+  padding: 0;
+}
+.contact-produits-et-services-desktech form >div:last-child {
+  display: flex
+;
+  width: 161.404px;
+}
+.contact-produits-et-services-desktech form >div textarea {
+  border-radius: 5px;
+  border-radius: 4px;
+  border: 1px solid #000849;
+  background: rgba(255, 255, 255, 0.80);
+}
+section.section-five-produits-et-services-desktech .right--section-two-desktech h2.text-white {
+  max-width: 452px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+section.banner_tp img {
+  height: 70vh;
+  object-fit: cover;
+}
+
+#banner_tp img {
+  height: auto;
+  object-fit: cover;
+}
+section.section-five-produits-et-services-desktech .row {
+  align-items: center;
+}
+section#blog--slider .banner >img {
+  opacity: 0;
+}
+section#blog--slider .row {
+  align-items: center;
+}
+.items--sc-blg {<
+  div class="img--all-blog">
+          <img src="./assets/images/card1-1.png">
+        </div>
+        <div class="card-item-all">
+          <h5>23 déc. 2024</h5>
+          <h2>L’Imprimante Multifonction Parfaite au Maroc: Ricoh IM 370F</h2>
+          <p>Chez  Desktech , nous comprenons l’importance d’une imprimante fiable pour les entreprises marocaines.
+            La Ricoh IM 370F combine...</p>
+        </div>;
+<
+  div class="img--all-blog">
+          <img src="./assets/images/card1-1.png">
+        </div>
+        <div class="card-item-all">
+          <h5>23 déc. 2024</h5>
+          <h2>L’Imprimante Multifonction Parfaite au Maroc: Ricoh IM 370F</h2>
+          <p>Chez  Desktech , nous comprenons l’importance d’une imprimante fiable pour les entreprises marocaines.
+            La Ricoh IM 370F combine...</p>
+        </div>;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.img--all-blog {
+  height: 150px;
+}
+
+.img--all-blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-item-all h5 {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card-item-all h2 {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 142.105% */
+  margin-bottom: 15px;
+}
+
+.card-item-all p {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 169.231% */
+  margin-bottom: 0;
+}
+
+.card-item-all {
+  padding: 40px;
+}
+
+section.lists--all-blog .row {
+  gap: 20px 0;
+}
+/*  */
+
+.img--all-blog {
+  height: 150px;
+}
+
+.img--all-blog img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-item-all h5 {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.card-item-all h2 {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px; /* 142.105% */
+  margin-bottom: 15px;
+}
+
+.card-item-all p {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 169.231% */
+  margin-bottom: 0;
+}
+
+.card-item-all {
+  padding: 40px;
+}
+
+section.lists--all-blog .row {
+  gap: 20px 0;
+}
+
+section#blog--slider {}
+
+section#blog--slider .row:after {
+  background-color: #BFBFBF;
+  position: absolute;
+  bottom: -70px;
+  height: 1px;
+  width: 100%;
+  content: "";
+}
+
+section#blog--slider .row {
+  position: relative;
 }

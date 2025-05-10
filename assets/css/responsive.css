@@ -94,5 +94,98 @@
   .container-sc {
     margin: 0 15px;
   }
+  .right--section-two-desktech {
+    padding: 20px 0 0 0;
+}
 
+section.section-two-desktech .row > .col-md-6:first-child {
+    margin-top: 40px !important;
+}
+
+.twoo--img-sc .para--text {
+    right: auto;
+}
+
+.five-desktech-owl {
+    height: auto;
+}
+
+.img---five-desktech-bg {
+    height: auto;
+}
+
+footer.text-light.py-5 {
+    padding-bottom: 10px !important;
+}
+.breadcrumb-sx {
+  height: 100%;
+}
+
+section.section-propose-one-desktech {}
+
+section.section-propose-one-desktech .para--text {
+  right: auto;
+  left: auto;
+  width: auto;
+  position: relative;
+}
+
+section.section-propose-one-desktech .one--img-sc-four {
+  width: 100%;
+}
+
+.stats-container {
+  flex-direction: column;
+  height: auto;
+  gap: 20px 0;
+  max-width: 100%;
+}
+
+.prtps {
+  padding: 0 30px;
+}
+
+.left--contact {
+  width: 100%;
+}
+
+.right--contact {
+  width: 100%;
+}
+
+section#contact--nous .two--column-contact {
+  flex-direction: column;
+}
+
+.contact-webform form >div {
+  width: 10;
+  width: 100%;
+}
+
+.left--contact p {
+  width: 80%;
+}
+
+.item-icon-contact svg {
+  width: 20%;
+  height: 50px;
+}
+
+.item-icon-contact {}
+
+.item-icon-contact .wrapper-text {
+  width: 80%;
+}
+
+section.banner_tp img {
+  height: 164px;
+  object-fit: cover;
+}
+
+.breadcrumb-sx span {
+  font-size: 27px;
+}
+
+.breadcrumb-sx svg {
+}
 }
