@@ -1683,3 +1683,104 @@ section.section-five-produits-et-services-desktech h5 {
   opacity: 1;
   border: 2px solid #000;
 }
+.informations_detail_product {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33px; /* 183.333% */
+}
+.tele--brochure {
+  border-radius: 10px;
+  border: 2px solid #000849;
+  background: rgba(217, 217, 217, 0.00);
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+  height: 68px;
+  justify-content: start;
+  gap: 0 10px;
+  width: 365px;
+}
+
+.tele--brochure a {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 165.217% */
+  display: flex;
+  gap: 0 20px;
+  justify-content: start;
+}
+
+.tele--contactez {
+  border-radius: 10px;
+  border: 2px solid #CE112D;
+  background: #CE112D;
+  /* width: 285px; */
+  height: 38px;
+  width: max-content;
+  display: flex;
+  padding: 15px 30px;
+  align-items: center;
+  height: 68px;
+  justify-content: start;
+  gap: 0 10px;
+  width: 365px;
+}
+
+.tele--contactez a {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 165.217% */
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+.wrapper---type p:first-child {
+  color: #CE112D;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 38px; /* 165.217% */
+}
+
+.wrapper---type p:last-child {
+  color: #000849;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.type--detail_product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.title-detail_product h2 {
+  color: #CE112D;
+  font-family: Roboto;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+
+section.lists--detail_product .row {
+  align-items: center;
+}
