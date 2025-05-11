@@ -84,6 +84,56 @@
     countUp();
   });
 
+  var main = $(".main-carousel");
+    var thumbs = $(".thumb-carousel");
+
+    main.owlCarousel({
+      items: 1,
+      slideSpeed: 2000,
+      nav: true,
+      autoplay: false,
+      dots: false,
+      loop: true,
+      responsiveRefreshRate: 200
+    }).on("changed.owl.carousel", syncPosition);
+
+    thumbs.owlCarousel({
+      items: 4,
+      dots: false,
+      nav: false,
+      margin: 10,
+      smartSpeed: 200,
+      slideSpeed: 500,
+      slideBy: 1, loop: true,
+      responsiveRefreshRate: 100
+    }).on("initialized.owl.carousel", function () {
+      thumbs.find(".owl-item").eq(0).addClass("current");
+    }).on("click", ".owl-item", function (e) {
+      e.preventDefault();
+      var index = $(this).index();
+      main.trigger("to.owl.carousel", [index, 300, true]);
+    });
+
+    function syncPosition(el) {
+      var count = el.item.count - 1;
+      var current = Math.round(el.item.index - el.item.count / 2 - 0.5);
+
+      if (current < 0) current = count;
+      if (current > count) current = 0;
+
+      thumbs.find(".owl-item").removeClass("current").eq(current).addClass("current");
+      var onscreen = thumbs.find('.owl-item.active').length - 1;
+      var start = thumbs.find('.owl-item.active').first().index();
+      var end = thumbs.find('.owl-item.active').last().index();
+
+      if (current > end) {
+        thumbs.trigger("to.owl.carousel", [current - onscreen, 300, true]);
+      }
+      if (current < start) {
+        thumbs.trigger("to.owl.carousel", [current, 300, true]);
+      }
+    }
+  
 })(jQuery);
 // $(document).ready(function () {
 //   $('#exampleModal').modal('show');

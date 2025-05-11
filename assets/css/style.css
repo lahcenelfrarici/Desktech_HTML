@@ -149,9 +149,9 @@ section.slider .home_button {
   display: block;
   border-radius: 10px;
   background: #CE112D;
-  width: max-content;
+  width: fit-content;
   height: auto;
-  padding: 0 30px 0 0;
+  padding: 0px 10px 0 0;
 }
 
 .home_slider_content {
@@ -1660,3 +1660,26 @@ section.section-five-produits-et-services-desktech h5 {
   left: auto;
   right: -50%;
 } */
+.main-carousel .item img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.thumb-carousel .item {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.thumb-carousel .item img {
+  width: 100px;
+  height: auto;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.thumb-carousel .item.active img,
+.thumb-carousel .item:hover img {
+  opacity: 1;
+  border: 2px solid #000;
+}
