@@ -1784,3 +1784,32 @@ section.section-five-produits-et-services-desktech h5 {
 section.lists--detail_product .row {
   align-items: center;
 }
+section.lists--detail_product {}
+
+section.lists--detail_product .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section.lists--detail_product .main-carousel {
+    position: relative;
+}
+
+section.lists--detail_product .thumb-carousel .item img {
+    margin: auto;
+    text-align: center;
+    opacity: 1;
+}
+
+section.lists--detail_product .owl-nav button:hover {
+    background: transparent !important;
+}
+.title--primary {
+  margin-top: 30px;
+}
