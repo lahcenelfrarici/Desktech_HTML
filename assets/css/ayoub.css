@@ -3,7 +3,7 @@
         text-align: center;
         padding: 0px 20px 0px 20px  !important;
     }
-    
+
   }
 /* .header--menu .navbar-nav{
 
@@ -33,7 +33,7 @@ ul.dropdown-menu.show {
     padding: 0px 160px 0px 160px !important;
 } */
 .card-doing h4{
-   
+
     font-size: 30px!important;
 }
 .success  {
@@ -45,9 +45,9 @@ ul.dropdown-menu.show {
     color: white;
 }
 .logo-success{
-  
+
     padding: 30px 0px 22px 64px;
- 
+
 }
 .card-doing h6{
    color: black;
@@ -77,7 +77,7 @@ img.quoteright {
   .col-md-7.color-vert-section.p-3 {
     padding: 30px 89px 30px 67px !important;
 }
-  
+
   #acc-card-3-column .icon-african_pioneericon--card h3 {
     -webkit-text-stroke-color: #009681;
     font-family: "Averta CY";
@@ -91,9 +91,9 @@ img.quoteright {
     -webkit-text-fill-color: #007565;
     text-align: left;
     -webkit-text-stroke-width: 0.5px;
-     
+
   }
-  
+
   #acc-card-3-column .icon--african_pioneer {
     height: 62px;
     text-align: right;
@@ -118,14 +118,14 @@ img.quoteright {
     line-height: 28px;
     text-align: left;
   }
-  
+
   div#acc-card-3-column {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 40px 0;
   }
-  
+
   div#acc-card-3-column .card {
     border: 0;
     width: 100%;
@@ -136,7 +136,7 @@ img.quoteright {
     display: flex;
     align-items: end;
   }
-  
+
   #textvert{
     text-align: center;
     -webkit-text-stroke-color: #151515;
@@ -189,7 +189,7 @@ box-shadow: 0px 4px 44.1px 0px rgba(54, 99, 167, 0.25);
 }
 
 h2.text-start.mt-5{
-    
+
     color: #FFF;
     -webkit-text-stroke-width: 0.800000011920929;
     -webkit-text-stroke-color: #FFF;
@@ -237,13 +237,13 @@ left: 40px;
     display: flex;
     justify-content: space-between;
   }
-  
+
 /* Style des flèches de navigation */
 .owl-nav .owl-prev,
 .owl-nav .owl-next {
   font-size: 3rem !important;  /* Agrandit la taille du texte des flèches */
- 
-  color: #fff !important; 
+
+  color: #fff !important;
   border-radius: 50% !important;
   width: 50px; /* Largeur des boutons */
   height: 50px; /* Hauteur des boutons */
@@ -266,18 +266,18 @@ ul.dropdown-menu {
 }
 header .navbar-expand-lg .navbar-nav .dropdown-menu {
     top: 80px !important;
-} 
+}
 section.banner_status_slider .wrapper-slider---img {
- 
+
     width: 20% !important;
 }
 .title-primary-sc h2 {
-    padding-bottom: 0px !important;  
+    padding-bottom: 0px !important;
 }
 .cover-orange {
     position: relative; /* Nécessaire pour positionner l'icône "play" */
     background: center;
-    background-image: url(./assets/images/pwc1.png);
+    background-image: url(/themes/custom/desktech/Desktech/assets/images/pwc1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 70%;
@@ -287,7 +287,7 @@ section.banner_status_slider .wrapper-slider---img {
 .cover {
     position: relative; /* Nécessaire pour positionner l'icône "play" */
     background: center;
-    background-image: url(./assets/images/pwc1.png);
+    background-image: url(/themes/custom/desktech/Desktech/assets/images/pwc1.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 70%;
@@ -303,7 +303,7 @@ section.banner_status_slider .wrapper-slider---img {
     transform: translate(-50%, -50%);
     width: 64px;
     height: 64px;
-    background: url('./assets/images/iconoir_play-solid.png') no-repeat center;
+    background: url('/themes/custom/desktech/Desktech/assets/images/iconoir_play-solid.png') no-repeat center;
     background-size: contain;
     cursor: pointer;
     z-index: 10;
@@ -316,7 +316,7 @@ section.banner_status_slider .wrapper-slider---img {
     transform: translate(-50%, -50%);
     width: 64px;
     height: 64px;
-    background: url('./assets/images/iconoir_play-solid.png') no-repeat center;
+    background: url('/themes/custom/desktech/Desktech/assets/images/iconoir_play-solid.png') no-repeat center;
     background-size: contain;
     cursor: pointer;
     z-index: 10;
@@ -327,14 +327,13 @@ section.banner_status_slider .wrapper-slider---img {
     display: none;
 }
 
-  
+
   .video {
     opacity:0;
     width:100%;
     transition: 1s;
     position:relative;
     z-index:-1;
-    
+
   }
- 
- 
+

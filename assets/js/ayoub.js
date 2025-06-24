@@ -7,8 +7,8 @@ $(document).ready(function () {
       nav: true, // Activer les boutons de navigation
       dots: false, // Désactiver les puces
       navText: ["&#8249;", "&#8250;"], // Utilisation de symboles "‹" et "›"
-    }); 
-    
+    });
+
   // Lorsqu'on clique sur .cover
   $('.cover .play-icon').on('click', function () {
     const cover = $(this).closest('.cover'); // Récupère l'élément parent `.cover`
@@ -46,14 +46,14 @@ $('.cover-orange .play-icon').on('click', function () {
   // Masque l'icône "play"
   $(this).hide();
 });
- 
+
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.cover').css('background-image', 'url("./assets/images/pwc1.png")');
+  $('.cover').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/pwc1.png")');
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.cover-orange').css('background-image', 'url("./assets/images/orange1.png")');
+  $('.cover-orange').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/orange1.png")');
   // Appliquer une image d'arrière-plan à un élément avec la classe .cover
-  $('.play-icon').css('background-image', 'url("./assets/images/iconoir_play-solid.png")');
- 
+  $('.play-icon').css('background-image', 'url("/themes/custom/desktech/Desktech/assets/images/iconoir_play-solid.png")');
+
 
 
 $('.playicon').on('click', function () {
@@ -65,5 +65,5 @@ $('.playicon').on('click', function () {
   // const video = $(this).siblings('video')[0];
   // video.play();
 });
- 
+
 });

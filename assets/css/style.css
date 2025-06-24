@@ -55,7 +55,6 @@ select {
 
 a {
   text-decoration: none;
-  font-family: "Averta CY";
 }
 
 h1,
@@ -347,6 +346,40 @@ li.nav-item {
   vertical-align: middle;
 }
 
+/*  */
+.menu_principe div#navbarScroll nav .navbar-nav-scroll>li:last-child a {
+  background-color: #CE112D;
+  border-radius: 30px;
+  padding: 10px 20px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+
+.menu_principe div#navbarScroll nav .navbar-nav-scroll>li:last-child a:after {
+  content: "";
+  display: inline-block;
+  width: 9px;
+  height: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='9' height='12' viewBox='0 0 9 12' fill='none'%3E%3Cg clip-path='url(%23clip0_4_50)'%3E%3Cpath d='M2.00491 9.72449L6.02087 5.61503L2.03689 1.47455' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_4_50'%3E%3Crect width='11' height='8' fill='white' transform='matrix(0.00387648 -0.999992 -0.999992 -0.00387648 8 11.0309)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+.menu_principe div#navbarScroll .navbar-nav-scroll {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    gap: 0 40px;
+}
+.menu_principe div#navbarScroll ul li .dropdown-toggle::after {
+    border: 0;
+}
 .top_header .container span svg {
   position: relative;
   top: 1px;
@@ -968,7 +1001,7 @@ section.section-five-desktech.section-propose-five-desktech .img---five-desktech
 
 .left--contact:after {
   content: "";
-  background-image: url(/./assets/images/contact.png);
+  background-image: url(../images/contact.png);
   position: absolute;
   top: auto;
   width: 100%;
@@ -1532,7 +1565,7 @@ section.lists--all-imprimantes-multifonctions .card-item-all {
   gap: 30px;
   align-items: center;
 
-  
+
   font-size: 18px;
   color: #0b1652;
 }
@@ -1812,4 +1845,117 @@ section.lists--detail_product .owl-nav button:hover {
 }
 .title--primary {
   margin-top: 30px;
+}
+/*  */
+.contact-produits-et-services-desktech {
+    background: transparent;
+}
+
+.contact-produits-et-services-desktech form >div input, .contact-produits-et-services-desktech form >div textarea {
+    border-radius: 4px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.12);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+
+.contact-produits-et-services-desktech form >div input::placeholder, .contact-produits-et-services-desktech form >div textarea::placeholder {
+    color: #fff;
+}
+
+.contact-produits-et-services-desktech form >div textarea {
+    padding-top: 15px;
+}
+.contact-produits-et-services-desktech input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #CE112D;
+    border: 0;
+    height: 52px;
+}
+.contact-produits-et-services-desktech form >div:nth-child(3), .contact-produits-et-services-desktech form >div:nth-child(4) {
+    width: 49%;
+}
+.besoins-label label {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+}
+
+.contact-produits-et-services-desktech form >div >label {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 0 5px;
+}
+
+.contact-produits-et-services-desktech form >div:nth-child(5) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.besoins-label {width: 100%;}
+
+.contact-produits-et-services-desktech form >div >label input {
+    width: auto;
+    width: 10%;
+}
+section.section-five-desktech.section-propose-five-desktech h2 span {
+    border-radius: 10px;
+    background: #000849;
+    color: #fff;
+    padding: 10px 15px;
+}
+section.maps-img img {
+    width: 100%;
+}
+/*  */
+li.nav-item.dropdown:hover ul.dropdown-menu.show {
+    display: block;
+}
+
+li.nav-item.dropdown:hover ul.dropdown-menu {
+    display: block;
+    top: 75px;
+}
+
+.menu_principe div#navbarScroll .navbar-nav-scroll {
+    height: 100%;
+
+    height: 76px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.menu_principe {
+    padding: 0;
+}
+
+.menu_principe div#navbarScroll .navbar-nav-scroll>  li {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
